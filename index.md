@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Benjamin L'Huillier, Cosmologist and Astrophysicist, Assistant Professor at Sejong University"
-permalink: /index/
+permalink: /
 ---
 
 I am an Assistant Professor in the [Department of Physics and Astronomy](https://sejong.elsevierpure.com/en/organisations/department-of-physics-and-astronomy) at [Sejong University](https://en.sejong.ac.kr/eng/index.do) in Seoul, South Korea.  
