@@ -5,6 +5,7 @@ permalink: /
 ---
 
 I am an Assistant Professor in the [Department of Physics and Astronomy](https://sejong.elsevierpure.com/en/organisations/department-of-physics-and-astronomy) at [Sejong University](https://en.sejong.ac.kr/eng/index.do) in Seoul, South Korea.  
+I am also an associate member at the [Korea Institute for Advanced Study](https://kias.re.kr/) and the [Center for Gravitational Wave Universe](https://gwuniverse.snu.ac.kr/) at [Seoul National University](https://en.snu.ac.kr/index.html).
 My research is funded by the National Research Foundation of Korea.
 
 My research interests focus on falsifying different aspects of the concordance LCDM model using N-body simulations within and beyond LCDM, and advanced statistical methods. I was also a member of the DESI collaboration, involved in the time domain and the cosmological simulations working groups.
