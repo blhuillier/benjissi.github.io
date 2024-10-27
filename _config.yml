@@ -2,6 +2,8 @@ theme: jekyll-theme-cayman
 title: Benjamin L'Huillier
 description: Cosmologist & Astrophysicist, Assistant Professor at Sejong University, Seoul, Korea
 url: "https://blhuillier.github.io"
+plugins:
+  - jekyll-theme-cayman
 # Links for navigation
 header_pages:
   - index.md
