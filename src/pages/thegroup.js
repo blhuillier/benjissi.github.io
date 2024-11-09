@@ -1,15 +1,16 @@
 import React from "react"
 import Layout from "../components/Layout"
 import GroupMember from "../components/GroupMember"
-import placeholderImage from "../images/placeholder.jpeg" // Placeholder for missing images
+import placeholderImage from "../images/placeholder.jpeg"
 
-// Specific images
-import photoHyeon from "../images/hyeon.jpg"
-import photoNoh from "../images/noh.jpg"
-import photoMillard from "../images/millard.jpg"
-import photoHwang from "../images/hwang.jpg"
-import photoYu from "../images/yu.jpg"
-import photoChung from "../images/chung.jpg"
+// Attempt to import each image; fallback to placeholder if not found
+let photoHyeon, photoNoh, photoMillard, photoHwang, photoYu, photoChung;
+try { photoHyeon = require("../images/hyeon.jpg"); } catch { photoHyeon = placeholderImage; }
+try { photoNoh = require("../images/noh.jpg"); } catch { photoNoh = placeholderImage; }
+try { photoMillard = require("../images/millard.jpg"); } catch { photoMillard = placeholderImage; }
+try { photoHwang = require("../images/hwang.jpg"); } catch { photoHwang = placeholderImage; }
+try { photoYu = require("../images/yu.jpg"); } catch { photoYu = placeholderImage; }
+try { photoChung = require("../images/chung.jpg"); } catch { photoChung = placeholderImage; }
 
 const TheGroupPage = () => (
   <Layout>
@@ -23,21 +24,21 @@ const TheGroupPage = () => (
         role="Graduate Student"
         startDate="Spring 2023"
         description="Researching N-body Simulations."
-        photo={photoHyeon || placeholderImage}
+        photo={photoHyeon}
       />
       <GroupMember
         name="M. Si Hyeong Noh"
         role="Graduate Student"
         startDate="Spring 2023"
         description="Focusing on Testing Modified Gravity."
-        photo={photoNoh || placeholderImage}
+        photo={photoNoh}
       />
       <GroupMember
         name="Ms. Cléa Millard"
         role="Graduate Student"
         startDate="Fall 2024"
         description="Working on SNIa Cosmology."
-        photo={photoMillard || placeholderImage}
+        photo={photoMillard}
       />
     </section>
 
@@ -48,7 +49,7 @@ const TheGroupPage = () => (
         role="Graduate Research Assistant"
         startDate="Summer 2024"
         description="Researching SNIa Cosmology."
-        photo={photoHwang || placeholderImage}
+        photo={photoHwang}
       />
     </section>
 
@@ -59,21 +60,21 @@ const TheGroupPage = () => (
         role="Alumnus"
         startDate="Yonsei U. M. Sc, 2019-2022"
         description=""
-        photo={photoHwang || placeholderImage}
+        photo={photoHwang}
       />
       <GroupMember
         name="M. Seokhyeon Yu"
         role="Alumnus"
         startDate="B. Sc., 2022"
         description=""
-        photo={photoYu || placeholderImage}
+        photo={photoYu}
       />
       <GroupMember
         name="Ms. Sohee (Sophie) Chung"
         role="Alumna"
         startDate="2019, Emory Rising Sophomore project"
         description=""
-        photo={photoChung || placeholderImage}
+        photo={photoChung}
       />
     </section>
   </Layout>
