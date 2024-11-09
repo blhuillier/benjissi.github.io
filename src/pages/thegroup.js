@@ -1,15 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import GroupMember from "../components/GroupMember"
-import placeholderImage from "../images/placeholder.jpeg" // Use placeholder if specific images are missing
+import placeholderImage from "../images/placeholder.jpeg" // Placeholder for missing images
 
-// Use available images or fallback to placeholder
-import photoHyeon from "../images/hyeon.jpg" || placeholderImage
-import photoNoh from "../images/noh.jpg" || placeholderImage
-import photoMillard from "../images/millard.jpg" || placeholderImage
-import photoHwang from "../images/hwang.jpg" || placeholderImage
-import photoYu from "../images/yu.jpg" || placeholderImage
-import photoChung from "../images/chung.jpg" || placeholderImage
+// Specific images
+import photoHyeon from "../images/hyeon.jpg"
+import photoNoh from "../images/noh.jpg"
+import photoMillard from "../images/millard.jpg"
+import photoHwang from "../images/hwang.jpg"
+import photoYu from "../images/yu.jpg"
+import photoChung from "../images/chung.jpg"
 
 const TheGroupPage = () => (
   <Layout>
@@ -23,21 +23,21 @@ const TheGroupPage = () => (
         role="Graduate Student"
         startDate="Spring 2023"
         description="Researching N-body Simulations."
-        photo={photoHyeon}
+        photo={photoHyeon || placeholderImage}
       />
       <GroupMember
         name="M. Si Hyeong Noh"
         role="Graduate Student"
         startDate="Spring 2023"
         description="Focusing on Testing Modified Gravity."
-        photo={photoNoh}
+        photo={photoNoh || placeholderImage}
       />
       <GroupMember
         name="Ms. Cléa Millard"
         role="Graduate Student"
         startDate="Fall 2024"
         description="Working on SNIa Cosmology."
-        photo={photoMillard}
+        photo={photoMillard || placeholderImage}
       />
     </section>
 
@@ -48,7 +48,7 @@ const TheGroupPage = () => (
         role="Graduate Research Assistant"
         startDate="Summer 2024"
         description="Researching SNIa Cosmology."
-        photo={photoHwang}
+        photo={photoHwang || placeholderImage}
       />
     </section>
 
@@ -59,21 +59,21 @@ const TheGroupPage = () => (
         role="Alumnus"
         startDate="Yonsei U. M. Sc, 2019-2022"
         description=""
-        photo={photoHwang}
+        photo={photoHwang || placeholderImage}
       />
       <GroupMember
         name="M. Seokhyeon Yu"
         role="Alumnus"
         startDate="B. Sc., 2022"
         description=""
-        photo={photoYu}
+        photo={photoYu || placeholderImage}
       />
       <GroupMember
         name="Ms. Sohee (Sophie) Chung"
         role="Alumna"
         startDate="2019, Emory Rising Sophomore project"
         description=""
-        photo={photoChung}
+        photo={photoChung || placeholderImage}
       />
     </section>
   </Layout>
