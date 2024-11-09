@@ -3,7 +3,7 @@ module.exports = {
   
   siteMetadata: {
     title: "Benjamin L'Huillier - Cosmologist & Astrophysicist",
-    description: "Benjamin L'Huillier's Homepage.",
+    description: "Official website of Benjamin L'Huillier, featuring his research, teaching, publications, and group.",
     author: "Benjamin L'Huillier",
     siteUrl: "https://blhuillier.github.io",
   },
