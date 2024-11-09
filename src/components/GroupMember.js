@@ -1,6 +1,6 @@
 import React from "react"
 import "./GroupMember.css"
-import placeholderImage from "../images/placeholder.jpg" // Placeholder image for members without a photo
+import placeholderImage from "../images/placeholder.jpeg" // Placeholder image for members without a photo
 
 const GroupMember = ({ name, role, startDate, description, photo }) => (
   <div className="group-member">
