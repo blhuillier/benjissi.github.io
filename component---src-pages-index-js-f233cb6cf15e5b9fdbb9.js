@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkblhuillier_gatsby_site=self.webpackChunkblhuillier_gatsby_site||[]).push([[293],{9639:function(e,l,t){t.r(l);var n=t(6540);l.default=()=>n.createElement("main",null,n.createElement("h1",null,"Hello, welcome to my site!"),n.createElement("p",null,"More content coming soon."))}}]);
+//# sourceMappingURL=component---src-pages-index-js-f233cb6cf15e5b9fdbb9.js.map
