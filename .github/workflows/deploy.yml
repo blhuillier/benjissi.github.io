@@ -1,3 +1,10 @@
+name: Deploy Gatsby Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Adjust if your branch is named differently
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
