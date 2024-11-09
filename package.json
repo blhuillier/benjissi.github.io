@@ -1,0 +1,6 @@
+Copypackage.json: copy code to clipboard
+{
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
