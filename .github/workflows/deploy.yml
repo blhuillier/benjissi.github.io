@@ -23,7 +23,10 @@ jobs:
 
       - name: Build the Gatsby site
         run: npm run build --prefix-paths
-
+      - name: Configure Git user
+        run: |
+          git config --global user.email "lhuillier.benjamin@gmail.com"
+          git config --global user.name "Benjamin L'Huillier"
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
