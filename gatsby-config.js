@@ -32,7 +32,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`, // For SEO metadata
-    `gatsby-plugin-sitemap`, // For automatic sitemap generation
+    // `gatsby-plugin-sitemap`, // For automatic sitemap generation
     `gatsby-plugin-styled-components`, // Optional: for styling
   ],
 };
