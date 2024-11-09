@@ -29,6 +29,10 @@ jobs:
           git config --global user.email "lhuillier.benjamin@gmail.com"
           git config --global user.name "Benjamin L'Huillier"
 
+      # Ensure CNAME file is copied to the public directory for deployment
+      - name: Prepare CNAME file for GitHub Pages
+        run: cp CNAME public/CNAME
+
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
