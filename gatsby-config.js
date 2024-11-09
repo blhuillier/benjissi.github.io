@@ -1,4 +1,4 @@
 Copygatsby-config.js: copy code to clipboard
 module.exports = {
-  pathPrefix: "/reponame",
+  pathPrefix: "/blhuillier.github.io",
 }
