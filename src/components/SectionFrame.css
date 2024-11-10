@@ -1,34 +1,27 @@
 .section-frame {
-    display: flex;
-    align-items: flex-start;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 15px 0;
-    border-radius: 8px;
-    background-color: #f9f9f9; /* Fallback color for sections without images */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 150px;
-  }
-  
-  .section-image {
-    width: 150px;
-    height: 100px;
-    margin-right: 20px;
-    border-radius: 4px;
-  }
-  
-  .section-content h3 {
-    margin: 0;
-  }
-  
-  .section-dates {
-    font-weight: bold;
-    color: #555;
-  }
-  
-  .section-content p {
-    margin: 5px 0;
-  }
-  
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  background-color: #333; /* Dark background placeholder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 150px;
+  color: #fff; /* White text for readability on dark background */
+}
+
+.section-content h3 {
+  margin: 0;
+}
+
+.section-dates {
+  font-weight: bold;
+  color: #ccc; /* Slightly lighter color for date text */
+}
+
+.section-content p {
+  margin: 5px 0;
+}
