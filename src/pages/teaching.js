@@ -4,7 +4,7 @@ import SummaryFrame from "../components/SummaryFrame"
 import SectionFrame from "../components/SectionFrame"
 
 // Placeholder images for sections where available
-import cosmologyImage from "../images/cosmology.jpg" // Image for cosmology section
+// Remove the `cosmology.jpg` import to use a dark background instead
 
 const TeachingPage = () => (
   <Layout>
@@ -34,7 +34,6 @@ const TeachingPage = () => (
           </ul>
         </>
       }
-      // No image prop provided for blank background
     />
 
     {/* 2. Invited Lectures Section (Cosmological Simulations) */}
@@ -48,7 +47,6 @@ const TeachingPage = () => (
           <p><strong>Nov. 2013:</strong> 1-hour lecture on cosmological simulations to undergraduate astronomy students, Kyunghee University, Suwon, Korea.</p>
         </>
       }
-      image={cosmologyImage} // Using image for this section
     />
 
     {/* 3. Teaching Assistant Section at Université Paris Diderot */}
@@ -66,7 +64,6 @@ const TeachingPage = () => (
           <p><strong>2008 - 2011:</strong> Computing tutorials in data analysis with MATLAB for first-year master’s (M1) students in Earth Science with Olivier de Viron: Frequency analysis, statistics, least square methods, wavelets.</p>
         </>
       }
-      // No image prop provided for blank background
     />
   </Layout>
 )
